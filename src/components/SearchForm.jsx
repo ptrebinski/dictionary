@@ -26,7 +26,7 @@ function SearchForm({ onSearch, className }) {
       <div className="relative">
         <input
           className={twMerge(
-            "w-full rounded-2xl bg-neutral-100  py-3.5 pl-6 pr-14  font-bold caret-primary placeholder:text-neutral-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:py-5 sm:text-xl",
+            "w-full rounded-2xl bg-neutral-100  py-3.5 pl-6 pr-14  font-bold caret-primary placeholder:text-neutral-500 focus-visible:outline focus-visible:outline-2  focus-visible:outline-primary dark:bg-neutral-800 sm:py-5 sm:text-xl",
             !isValid && "border border-error focus-visible:outline-error",
           )}
           type="text"

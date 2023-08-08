@@ -29,7 +29,7 @@ function WordDefinition({ data, onSearch }) {
 
             {phonetics?.audio ? (
               <button
-                className="grid aspect-square w-12 place-items-center rounded-full bg-primary bg-opacity-25 text-primary hover:bg-opacity-100 hover:text-white focus-visible:outline-none focus-visible:ring focus-visible:ring-primary focus-visible:ring-offset-2 sm:w-16 "
+                className="grid aspect-square w-12 place-items-center rounded-full bg-primary bg-opacity-25 text-primary hover:bg-opacity-100 hover:text-white focus-visible:outline-none focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-primary sm:w-16 "
                 onClick={() => {
                   play(phonetics.audio);
                 }}
@@ -109,7 +109,7 @@ function WordDefinition({ data, onSearch }) {
         </article>
       ))}
 
-      <div className="my-8 flex flex-wrap gap-x-5 gap-y-1 border-t border-neutral-200 pt-6 text-sm sm:my-10 sm:pt-7 sm:text-base">
+      <div className="mt-8 flex flex-wrap gap-x-5 gap-y-1 border-t border-neutral-200 py-6 text-sm sm:mt-10 sm:py-7 sm:text-base">
         <h4 className="text-neutral-500">Source</h4>
         <a
           className="underline hover:text-primary"
